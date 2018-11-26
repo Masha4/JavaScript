@@ -6,8 +6,8 @@ function MyFirstApp(name, age) {
 		
 
 		for (let i = 0; i < skills.length; i++) {
-			document.write('Я владею' + skills[i] + '<br>')
-		} 
+			document.write('Я владею' + skills[i] + '<br>')  
+		} // вместо document write лучше писать document.body.innerHTML=""; или += для записи каждого элемента массива
 	}
 	showSkills(); 
 	 
